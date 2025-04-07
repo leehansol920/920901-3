@@ -7,7 +7,7 @@ workflows:
       - npm install
       - npx cap sync android
       - npx cap copy android
-      - cd android
+      
       - chmod +x gradlew
       - ./gradlew assembleDebug
     artifacts:
