@@ -11,4 +11,4 @@ workflows:
       - chmod +x gradlew
       - ./gradlew assembleDebug
     artifacts:
-      - app/build/outputs/debug/*.apk
+      - app/build/outputs/apk/debug/*.apk
